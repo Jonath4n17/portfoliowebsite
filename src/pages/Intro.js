@@ -6,7 +6,7 @@ import './Pages.css';
 export default function Intro() {
     const introRef = useNav('Intro');
 
-    const logoImage = "/images/logo.png"
+    const logoImage = "/images/logo2.png"
     const selfie = "/images/selfie.jpg"
 
     return (
@@ -18,12 +18,12 @@ export default function Intro() {
                     <h5>Seeking Summer 2023 Opportunities</h5>
                 </div>
             </div>
-            <div className='Content'>
+            <div className='IntroContent'>
                 <img className="Selfie" src={process.env.PUBLIC_URL + selfie} alt="Jonathan Lin himself"></img>
                 <div className='Intro'>
                     <div className="IntroText">
                         <h1>Hi there,</h1>
-                        <h1>My name is Jonathan.</h1>
+                        <h1>My name is Jonathan Lin.</h1>
                     </div>
                     <div className="ButtonField">
                         <button></button>

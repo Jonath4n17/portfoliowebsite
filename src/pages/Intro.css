@@ -2,9 +2,12 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	margin-bottom: 80px;
 }
 
 .HeaderText {
+	margin-top: 40px;
+	margin-right: 40px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
@@ -12,16 +15,17 @@
 }
 
 .HeaderText h3 {
+	margin-top: 0;
 	margin-bottom: 0;
 }
 .HeaderText h5 {
 	margin-top: 0;
 }
 
-.Content {
+.IntroContent {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: flex-start;
 }
 
 .Intro {
@@ -32,22 +36,48 @@
 
 .IntroText {
 	color: #388087;
+	font-size: 37px;
+}
+
+.IntroText h1 {
+	margin-bottom: 0;
+	margin-top: 0;
 }
 
 .Logo {
-	max-height: 70px;
+	margin-top: 45px;
+	margin-left: 40px;
+	max-height: 50px;
 }
 
 .Selfie {
 	max-height: 400px;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 	border-radius: 64px;
+	margin-left: 20%;
+	margin-right: 5%;
 }
 
 .Arrow {
 	color:#388087;
-	margin-top: 100px;
+	margin-top: 10%;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 50px;
+}
+
+.Arrow:hover {
+	cursor: pointer;
+	opacity: 75%;
+}
+
+.ButtonField {
+	margin-top: 5%;
+}
+
+.ButtonField button {
+	margin-left: 5%;
+	height: 80px;
+	width: 200px;
+	border-radius: 30px;
 }
