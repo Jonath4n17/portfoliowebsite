@@ -19,7 +19,7 @@ export default function About() {
                     <h5>Paragraph 3</h5>
                     <img className="Spotify" src={process.env.PUBLIC_URL + spotifyIcon} alt="Spotify logo"></img>
                 </div>
-                <img className="StudyImg" src={process.env.PUBLIC_URL + studyingImage} alt="Asthetic picture of Jonathan coding"></img>
+                <img className="StudyImg" src={process.env.PUBLIC_URL + studyingImage} alt="Jonathan coding his heart out"></img>
             </div>
         </section>
     );

@@ -1,8 +1,21 @@
 .AboutContent {
+	margin-top: 7%;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
+}
+
+.AboutMe {
+	margin-left: 10%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #6fb3b8;
+}
+
+.AboutMe h1 {
+	color: #388087;
 }
 
 .Spotify {
@@ -10,7 +23,8 @@
 }
 
 .StudyImg {
+	margin-left: 15%;
 	max-height: 650px;
 	border-radius: 64px;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
+}                           
