@@ -26,12 +26,12 @@ export default function Intro() {
                         <h1>My name is Jonathan Lin.</h1>
                     </div>
                     <div className="ButtonField">
-                        <button></button>
-                        <button></button>
+                        <button>Resume</button>
+                        <button onClick={() => window.open("https://www.linkedin.com/in/jonathan-lin-1104/")}>LinkedIn</button>
                     </div>
                 </div>
             </div>
-            <h1 className="Arrow">↓</h1>  
+            <button onClick={() => document.getElementById('aboutContainer').scrollIntoView({behavior: 'smooth'})} className="Arrow">↓</button>  
         </section>
     );
 }
