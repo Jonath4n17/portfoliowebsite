@@ -20,9 +20,9 @@ export default function Projects() {
     const cardTwoImg = "/images/jodie.png";
     const cardThreeImg = "/images/validate.png";
 
-    const cardOneBody = "Body";
-    const cardTwoBody = "Body";
-    const cardThreeBody = "Body";
+    const cardOneBody = " I trained my own CNN using PyTorch and implemented OpenCV to process images and extract text from them.";
+    const cardTwoBody = "StudyBuddy is an iOS app that let’s you hatch cute, cartoon monsters  by being producitive. It was developed using React Native and MongoDB Realm.";
+    const cardThreeBody = "ReInfo is a web application which extracts data from pictures of receipts. It was developed using Flask and Google Vision.";
 
     return (
         <section ref={projectsRef} id='projectsContainer' className='Fill'>
@@ -32,7 +32,7 @@ export default function Projects() {
                 <Card src={cardTwoImg} body={cardTwoBody} header="StudyBuddy"/>
                 <Card src={cardThreeImg} body={cardThreeBody} header="ReInfo"/>
             </div>
-            <button className="Github"></button>
+            <button onClick={() => window.open("https://github.com/Jonath4n17")} className="Github">Github</button>
         </section>
     );
 }
