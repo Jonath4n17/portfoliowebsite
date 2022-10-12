@@ -59,7 +59,7 @@
 
 .CardImage {
 	margin-top: 13%;
-	width: 7vw;
+	height: 7vw;
 }
 
 .Github {
@@ -96,7 +96,7 @@
 		margin-bottom: 4%;
 	}
 	.CardImage {
-		width: 12vw;
+		height: 12vw;
 	}
 	.CardHeader {
 		font-size: 3.5vw;
