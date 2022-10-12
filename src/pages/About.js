@@ -13,7 +13,7 @@ export default function About() {
     + "I worked as a student developer at Borden Ladner Gervais (BLG) on the innovation team.";
     const paraTwo = "I love to learn, especially topics I am passionate about such as statistics, machine learning, robotics, and brain-computer " +
     "interfaces. I also enjoy full-stack development and data science involving languages/frameworks such as .NET Core, Python, and React.";
-    const paraThree = "Besides work, I enjoy playing basketball and will always be a supporter of Jeremy Lin. In addition, I'm interested in digital design and love listening to music. Check out my playlists below!";
+    const paraThree = "Besides work, I enjoy playing basketball and am an avid supporter of Jeremy Lin. In addition, I'm interested in digital design and love listening to music. Check out my playlists below!";
     return (
         <section ref={aboutRef} id='aboutContainer' className='Fill'>
             <div className='AboutContent'>

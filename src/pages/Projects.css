@@ -1,6 +1,6 @@
 .ProjectsHeader {
-	margin-top: 3%;
-	font-size: 40px;
+	margin-top: 4%;
+	font-size: 3vw;
 	text-align: center;
 	color: #388087;
 	font-family: "Sora";
@@ -22,54 +22,92 @@
 	font-style: bold;
 	font-weight: 400;
 	color: #388087;
-	margin-top: 20px;
+	margin-top: 7%;
 	margin-bottom: 0px;
+	font-size: 1.7vw;
 }
 
 .CardBody {
 	font-family: "Montserrat";
 	font-style: bold;
-	font-size: 15px;
+	font-size: 1vw;
 	font-weight: 400;
 	color: #6fb3b8;
 	text-align: center;
 	padding-left: 15%;
 	padding-right: 15%;
-	line-height: 25px;
-	margin-top: 20px;
+	line-height: 180%;
+	margin-top: 7%;
 }
 
 .CardBackground {
 	background: #ffffff;
-	border-radius: 60px;
-	height: 480px;
-	width: 320px;
+	border-radius: 4vw;
+	padding-bottom: 6%;
+	height: auto;
+	width: 23vw;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
+.CardBackground:hover {
+	cursor: pointer;
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
 .CardImage {
 	margin-top: 13%;
-	height: 137px;
+	width: 7vw;
 }
 
 .Github {
 	margin-left: auto;
 	margin-right: auto;
-	width: 200px;
-	height: 80px;
-	border-radius: 30px;
+	width: 10em;
+	height: 4em;
+	border-radius: 1.8em;
 	background-color: #6fb3b8;
 	border: none;
 	color: white;
-	font-size: 20px;
+	font-size: 1.3vw;
 	font-family: "Actor";
 	cursor: pointer;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 0.2em 0.2em rgba(0, 0, 0, 0.25	);
+	margin-bottom: 8%;
 }
 
 .Github:hover {
-	opacity: 80%;
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+@media only screen and (max-width: 768px) {
+	.ProjectsHeader {
+		font-size: 5vw;
+		margin-bottom: 6%;
+	}
+	.CardsList {
+		flex-direction: column;
+		align-items: center;
+	}
+	.CardBackground {
+		width: 45vw;
+		margin-bottom: 4%;
+	}
+	.CardImage {
+		width: 12vw;
+	}
+	.CardHeader {
+		font-size: 3.5vw;
+	}
+	.CardBody {
+		font-size: 2vw;
+		line-height: 220%;
+	}
+	.Github {
+		height: 4.5em;
+		width: 9.5em;
+		font-size: 2vw;
+	}
 }

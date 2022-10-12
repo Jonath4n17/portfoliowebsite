@@ -5,7 +5,7 @@ import './Pages.css';
 
 function Card(props) {
     return(
-        <div className="CardBackground">
+        <div onClick={()=>window.open(props.link)} className="CardBackground">
             <img className="CardImage" src= {process.env.PUBLIC_URL + props.src} alt="Project visual"></img>
             <h2 className="CardHeader">{props.header}</h2>
             <h5 className="CardBody">{props.body}</h5>
@@ -28,9 +28,9 @@ export default function Projects() {
         <section ref={projectsRef} id='projectsContainer' className='Fill'>
             <h1 className="ProjectsHeader">My Projects</h1>
             <div className="CardsList">
-                <Card src={cardOneImg} body={cardOneBody} header="OCR"/>
-                <Card src={cardTwoImg} body={cardTwoBody} header="StudyBuddy"/>
-                <Card src={cardThreeImg} body={cardThreeBody} header="ReInfo"/>
+                <Card link="https://github.com/Jonath4n17/OCR-Software" src={cardOneImg} body={cardOneBody} header="OCR"/>
+                <Card link="https://github.com/jodiezhuu/StudyBuddy" src={cardTwoImg} body={cardTwoBody} header="StudyBuddy"/>
+                <Card link="https://github.com/Jonath4n17/REInfo" src={cardThreeImg} body={cardThreeBody} header="ReInfo"/>
             </div>
             <button onClick={() => window.open("https://github.com/Jonath4n17")} className="Github">Github</button>
         </section>
