@@ -105,18 +105,18 @@
 
 @media only screen and (max-width: 768px) {
 	.Arrow {
-		font-size: 5vw;
+		font-size: 7vw;
 	}
 	.ButtonField {
-		width: 50vw;
+		width: 60vw;
 		display: flex;
 		justify-content: space-evenly;
 	}
 	.ButtonField button {
 		margin-right: 0px;
-		height: 4.5em;
-		width: 9.5em;
-		font-size: 2vw;
+		height: 4em;
+		width: 9em;
+		font-size: 2.5vw;
 	}
 	.Logo {
 		margin-top: 3.3%;
@@ -126,10 +126,11 @@
 	.HeaderText {
 		margin-top: 3%;
 		margin-right: 3%;
-		font-size: 1.5vw;
+		font-size: 1.7vw;
 	}
 	.Selfie {
-		width: 28vw;
+		width: 30vw;
+		border-radius: 6vw;
 		margin-bottom: 5%;
 	}
 	.Intro {
@@ -141,7 +142,7 @@
 		align-items: center;
 	}
 	.IntroText {
-		font-size: 3vw;
+		font-size: 4vw;
 		text-align: center;
 	}
 	.ButtonField{

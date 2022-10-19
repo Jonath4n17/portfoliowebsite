@@ -32,7 +32,7 @@
 	font-style: bold;
 	font-size: 1vw;
 	font-weight: 400;
-	color: #6fb3b8;
+	color: #388087;
 	text-align: center;
 	padding-left: 15%;
 	padding-right: 15%;
@@ -84,7 +84,7 @@
 
 @media only screen and (max-width: 768px) {
 	.ProjectsHeader {
-		font-size: 5vw;
+		font-size: 6vw;
 		margin-bottom: 6%;
 	}
 	.CardsList {
@@ -92,22 +92,23 @@
 		align-items: center;
 	}
 	.CardBackground {
-		width: 45vw;
-		margin-bottom: 4%;
+		width: 70vw;
+		margin-bottom: 8%;
+		border-radius: 8vw;
 	}
 	.CardImage {
-		height: 12vw;
+		height: 18vw;
 	}
 	.CardHeader {
-		font-size: 3.5vw;
+		font-size: 5vw;
 	}
 	.CardBody {
-		font-size: 2vw;
+		font-size: 2.4vw;
 		line-height: 220%;
 	}
 	.Github {
-		height: 4.5em;
-		width: 9.5em;
-		font-size: 2vw;
+		height: 4em;
+		width: 9em;
+		font-size: 2.5vw;
 	}
 }

@@ -36,3 +36,9 @@ nav span.activeClass {
 	position: fixed;
 	z-index: 0;
 }
+
+@media only screen and (max-width: 768px) {
+	nav {
+		display: none;
+	}
+}
