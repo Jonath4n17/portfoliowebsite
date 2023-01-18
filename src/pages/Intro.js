@@ -26,7 +26,7 @@ export default function Intro() {
                         <h1>My name is Jonathan Lin.</h1>
                     </div>
                     <div className="ButtonField">
-                        <button onClick={() => window.open("https://drive.google.com/file/d/1PjHhlkPDW1_bzpa2HTGpT0jITZuo5dh3/view?usp=sharing")}>Resume</button>
+                        <button onClick={() => window.open("https://drive.google.com/file/d/1yEN2a0xQkD5PqinJ1546p_UduDw4APhO/view?usp=sharing")}>Resume</button>
                         <button onClick={() => window.open("https://www.linkedin.com/in/jonathan-lin-1104/")}>LinkedIn</button>
                     </div>
                 </div>
