@@ -11,7 +11,7 @@ export default function About() {
 
     const paraOne = "Hi everyone! My name is Jonathan and I'm a Computer Science student at the University of Waterloo. Over my past summers, "
     + "I have worked as a .NET developer at Zomp Inc and a student developer at Borden Ladner Gervais (BLG) on the innovation team.";
-    const paraTwo = "I love to learn, especially topics I am passionate about such as statistics, machine learning, and blockchain." +
+    const paraTwo = "I love to learn, especially topics I am passionate about such as statistics, machine learning, and blockchain. " +
     "I also enjoy full-stack development and data science involving languages/frameworks such as .NET Core, Python, and React.";
     const paraThree = "Besides work, I enjoy playing basketball and am an avid supporter of Jeremy Lin. In addition, I'm interested in digital design and love listening to music. Check out my playlists below!";
     return (
