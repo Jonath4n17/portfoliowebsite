@@ -15,7 +15,7 @@ export default function Intro() {
                 <img className="Logo" src={process.env.PUBLIC_URL + logoImage} alt="Jonathan Lin's Logo"></img>
                 <div className='HeaderText'>
                     <h3>3A Computer Science Student at University of Waterloo</h3>
-                    <h5>Seeking Winter 2024 Opportunities</h5>
+                    <h5>Seeking Winter and Summer 2024 Opportunities</h5>
                 </div>
             </div>
             <div className='IntroContent'>
@@ -26,7 +26,7 @@ export default function Intro() {
                         <h1>My name is Jonathan Lin.</h1>
                     </div>
                     <div className="ButtonField">
-                        <button onClick={() => window.open("https://drive.google.com/file/d/1yEN2a0xQkD5PqinJ1546p_UduDw4APhO/view?usp=sharing")}>Resume</button>
+                        <button onClick={() => window.open("https://drive.google.com/file/d/1zJACJKC9Fo53-i0Y5FzLUmrGaA5_a-RE/view?usp=sharing")}>Resume</button>
                         <button onClick={() => window.open("https://www.linkedin.com/in/jonathan-lin-1104/")}>LinkedIn</button>
                     </div>
                 </div>
