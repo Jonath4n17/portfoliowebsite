@@ -15,7 +15,7 @@ export default function Intro() {
                 <img className="Logo" src={process.env.PUBLIC_URL + logoImage} alt="Jonathan Lin's Logo"></img>
                 <div className='HeaderText'>
                     <h3>3rd Year CS Student at UWaterloo | Graduating 2026</h3>
-                    <h5>Seeking Fall 2024 and Spring 2025 Opportunities</h5>
+                    <h5>Seeking Winter and Summer 2025 Opportunities</h5>
                 </div>
             </div>
             <div className='IntroContent'>
