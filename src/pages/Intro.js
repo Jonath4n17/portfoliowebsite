@@ -18,8 +18,8 @@ export default function Intro() {
           alt="Jonathan Lin's Logo"
         ></img>
         <div className="HeaderText">
-          <h3>3rd Year CS Student at UWaterloo | Graduating 2026</h3>
-          <h5>Seeking Winter and Summer 2025 Opportunities</h5>
+          <h3>4th Year CS Student at UWaterloo | Graduating 2026</h3>
+          <h5>Seeking Summer and Fall 2025 Opportunities</h5>
         </div>
       </div>
       <div className="IntroContent">
